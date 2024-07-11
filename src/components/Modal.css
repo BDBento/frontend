@@ -1,0 +1,183 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  h2{
+    font-size: 18px;
+  }
+  img{
+    margin: 0 auto;
+  }
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  margin: 20px 0;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: left;
+  imput {
+    margin-bottom: 10px;
+  }
+}
+
+legend {
+  padding: 0 10px;
+  font-weight: bold;
+  position: relative;
+  font-size: 12px;
+  top: -8px;
+  color: #979797;
+  display: inline;
+  background-color:#fff;
+}
+
+.legend-name{
+  width: auto;
+}
+.especializacao,.casa{
+  width: 100%;
+  color: #2555ab;
+  text-align: left;
+}
+.select-especializacao,.select-casa{
+  width: 100%;
+  color: #7c7c7c;
+  text-align: left;
+  border-bottom: 1px solid #2555ab;
+  padding: 10px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input, select {
+  padding:0 10px;
+  width: calc(100% - 20px);
+  border: none;
+  top: -15px;
+  border-radius: 5px;
+  position: relative;
+  font-size: 16px;
+}
+textarea:focus, input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+/* ------------------------------modal login-------------------------------- */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
